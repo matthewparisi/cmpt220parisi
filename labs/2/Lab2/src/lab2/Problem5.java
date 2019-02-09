@@ -12,7 +12,7 @@ public class Problem5 {
 		String two = new String (input2.next());
 		System.out.println(one.compareTo(two));
 		char temp;
-		for (int i = one.length() - 1 ; i > 0; i = i -1) { 
+		for (int i = one.length() - 1 ; i > 0; i = i -1) { // JA: ?
 	             temp = one.charAt(i); 
 	             System.out.print(temp);
 	        } 

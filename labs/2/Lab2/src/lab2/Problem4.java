@@ -7,7 +7,7 @@ public class Problem4 {
 		Scanner input = new Scanner(System.in);
 		char char1 = input.next().charAt(0) ;
 		System.out.println("char2: ");
-		Scanner input2 = new Scanner(System.in); 
+		Scanner input2 = new Scanner(System.in); // JA: You need only one scanner
 		char char2 = input2.next().charAt(0);
 		int one = char1;
 		int two = char2;
