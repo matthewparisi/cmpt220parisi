@@ -7,7 +7,7 @@ public class Problem2 {
 		int counter = 0;
 		while (start < 501) {
 			
-			if (start % 5 == 0 || start % 7 == 0 ) {
+			if (start % 5 == 0 ^ start % 7 == 0 ) { // JA
 				System.out.print(start);
 				System.out.print(" ");
 				counter = counter + 1;

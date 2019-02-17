@@ -32,7 +32,7 @@ public class Problem6 {
 		System.out.println("enter a string and I'll count the vowels: ");
 		System.out.println("Enter the String: ");
 		Scanner input = new Scanner(System.in);
-		String word = input.next();
+		String word = input.nextLine(); // JA
 		int vowelcount = the(word);
 		System.out.println(vowelcount);
 

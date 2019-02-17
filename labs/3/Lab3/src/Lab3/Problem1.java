@@ -1,5 +1,6 @@
 package Lab3;
 import java.util.Scanner;
+// JA
 public class Problem1 {
 
 	public static void main(String[] args) {
@@ -7,9 +8,9 @@ public class Problem1 {
 		int i = 1;
 		int counter = 0;
 		int evencount = 0;
+		Scanner input = new Scanner(System.in);
+		System.out.println("enter numbers here enter a 0 to end: ");
 		while (i != 0) {
-			System.out.println("enter numbers here enter a 0 to end: ");
-			Scanner input = new Scanner(System.in);
 			i = input.nextInt();
 			total = total + i;
 			counter = counter + 1;
