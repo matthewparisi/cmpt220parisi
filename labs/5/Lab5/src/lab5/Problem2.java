@@ -33,7 +33,7 @@ public class Problem2 {
 		mean = mean / x.length;
 		
 		for(int i = 0; i < x.length ; i++) {
-			standdev = Math.pow(x[i] - mean, 2) ; 
+			standdev += Math.pow(x[i] - mean, 2) ; // JA
 		}
 		standdev = standdev / (x.length-1);
 		

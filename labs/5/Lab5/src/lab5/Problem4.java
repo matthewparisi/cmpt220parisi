@@ -35,6 +35,7 @@ public class Problem4 {
 		//returns true if the arrays have the same elements 
 		int totaldifference = 0;
 		
+		// JA: The arrays might not be in the same order but they are still the same
 		for (int i = 0; i < x.length; i++){
 			totaldifference += x[i] - y[i];
         }
