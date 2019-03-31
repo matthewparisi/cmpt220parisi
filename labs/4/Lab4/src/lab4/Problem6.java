@@ -15,7 +15,7 @@ public class Problem6 {
 		}
 		array = arrayreplace(array, 3 , 10);
 		array = arrayreplace(array,  7, 100);
-		while(i > 10) {
+		while(i < 10) {
 			System.out.print(array[i]);
 			i+=1;
 		}
