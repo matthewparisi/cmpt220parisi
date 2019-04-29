@@ -18,7 +18,7 @@ public class Triangle {
 			
 			}
 		}
-			
+			// JA: You don't need to catch it
 			catch (IllegalTriangleException ex){
 				
 				System.out.print(ex);		
