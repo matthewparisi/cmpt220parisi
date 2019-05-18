@@ -1,3 +1,4 @@
+
 package lab10;
 
 public abstract class Appliance implements Comparable<Appliance>  {
@@ -36,6 +37,7 @@ public abstract class Appliance implements Comparable<Appliance>  {
 	@Override
 	public int compareTo(Appliance arg0) {
 		// TODO Auto-generated method stub
+		// JA: You should had implement compareTo here
 		return 0;
 	}
 	@Override
